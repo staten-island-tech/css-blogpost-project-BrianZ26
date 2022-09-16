@@ -2,7 +2,7 @@ body{
     background-color: grey;
     margin: 20px 20px 20px 20px;
 }
-.background {
+.header {
     background-image: url(media/back.jfif);
     background-position: center;
     background-size: cover;
@@ -10,4 +10,15 @@ body{
 }
 .heading {
     text-align-last: center;
+}
+.text{
+    font-size: 20;
+   text-align: center;
+}
+.img{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10, auto;
+    border: 2px solid black;
 }
