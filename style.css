@@ -1,10 +1,10 @@
 body{
-    background-color: grey;
+    background-color: rgb(100,100,100);
     margin: 20px 20px 20px 20px;
 }
 .header {
     font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
+    font-size: 25;
     background-image: url(media/back.jfif);
     background-position: center;
     background-size: cover;
@@ -16,11 +16,14 @@ body{
 }
 .text{
     font-size: 20;
-   text-align: center;
+    text-align: center;
 }
 .img{
- padding: 20 20 20 20;
- border: ;
+    background-color: rgb(255,255,255);
+    display: block;
+    padding: 50;
+    border: 2px solid rgb(0, 0, 0);
+    width: 250;
 }
 .div{
     display:flex;
